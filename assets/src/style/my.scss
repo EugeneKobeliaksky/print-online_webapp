@@ -1,0 +1,83 @@
+body{
+    background-image: url('../img/bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    box-sizing: content-box;
+    .hedaer{
+        .navbar{ background:#F97300;}
+        .nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+        .nav-link{ margin-right: 1em !important;}
+        .nav-link:hover{ background: #f4f4f4; color: #f97300; }
+        .navbar-collapse{ justify-content: flex-end;}
+        .navbar-toggler{  background:#fff !important;}
+
+    }
+    main{
+        margin-top: 75px;
+        .container{
+            h2{
+                font-weight: 700;
+                font-size: 25px;
+                color: #f4f4f4;
+            }
+            .row{
+                flex-wrap: wrap;
+                .items{
+                    margin: 15px auto;
+                    .news-item{
+                        .content-wrapper{
+                            display: flex;
+                            justify-content: flex-start;
+                            flex-wrap: wrap;
+                            .card-img{
+                                width: 100%;
+                                overflow:hidden;
+                                border-radius: 0;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                img{
+                                    height: 100%;
+                                    
+                                    transition: .3s;
+                                    transition-delay: .1s;
+                                    filter: grayscale(1);
+                                }
+                            }
+                            .card-body{
+                                .card-title{
+                                    font-size: 30px;
+                                    font-weight: bold;
+                                    text-transform: uppercase;
+                                }
+                                .card-text{
+
+                                }
+                            }
+                        }
+                        .card-footer{
+                            
+                        }
+                    }
+                }
+                .items:hover .news-item .content-wrapper .card-img img{
+                    transform: scale(1.03);
+                    filter: grayscale(0);
+
+                }
+            }
+            .news{
+                margin-bottom: 75px;
+                padding: 5px;
+                background-color: rgb(221, 221, 221);
+            }
+            .blogs{
+                margin-bottom: 75px;
+                padding: 5px;
+                background-color: rgb(221, 221, 221);
+            }
+        }
+    }
+    
+}
