@@ -75,4 +75,37 @@ body{
     /* width: 100%;
     height: 100vh; */
     @import "header.scss";
+   main{
+      margin-top: 30px;
+      padding: 0 30px;
+      .news-slider-wrapp{
+         .slider{
+            width: 100%;
+            background-color: blueviolet;
+            height: 100%;
+         }
+      }
+      .popular-product{
+         margin-top: 30px;
+         padding: 0;
+         .title-block{
+            width: 100%;
+            height: auto;
+            background: #DC4040;
+            .title{
+               margin: 5px 10px;
+               h2{
+                  font-style: normal;
+                  font-weight: 900;
+                  font-size: 24px;
+                  line-height: 28px;
+                  letter-spacing: 0.05em;
+                  text-transform: uppercase;
+   
+                  color: #FFFFFF;
+               }
+            }
+         }
+      }
+   }
 }

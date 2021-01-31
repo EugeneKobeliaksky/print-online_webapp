@@ -47,11 +47,86 @@
         header{
             .full_nav-bar{
                 .nav-bar{
+                    .logo-wrapp{
+                        width: 450px;
+                    }
                     .help-wrapp{
                         display: none;
                     }
                 }
             } 
+            .mobile_nav-bar{
+                display: block;
+            }
+        } 
+    }
+}
+@media only screen and (max-width: 768px){
+    body{
+        header{
+            .full_nav-bar{
+                .nav-bar{
+                    .logo-wrapp{
+                        width: 370px;
+                    }
+                }
+            } 
+        } 
+    }
+}
+@media only screen and (max-width: 545px){
+    body{
+        header{
+            .full_nav-bar{
+                .nav-bar{
+                    .logo-wrapp{
+                        width: 270px;
+                    }
+                    .contact-wrapp{
+                        .phone-wrapp{
+                            .phone-number{
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+            } 
+            .mobile_nav-bar{
+                .help-items{
+                    .item{
+                        a{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+}
+@media only screen and (max-width: 430px){
+    body{
+        header{
+            .full_nav-bar{
+                padding: 10px 15px;
+                .nav-bar{
+                    .logo-wrapp{
+                        width: 250px;
+                    }
+                    .contact-wrapp{
+                        display: none;
+                    }
+                    .btn-sidebar{
+                        display: block;
+                        .icon{
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+            } 
+            .mobile_nav-bar{
+                display: none;
+            }
         } 
     }
 }

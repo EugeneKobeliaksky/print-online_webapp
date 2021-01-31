@@ -7299,7 +7299,8 @@ body {
               body header .full_nav-bar .nav-bar .help-wrapp .help-items .item a .drop-arrow {
                 margin-left: 10px;
                 width: 10px;
-                height: 10px; }
+                height: 10px;
+                fill: #ffffff; }
             body header .full_nav-bar .nav-bar .help-wrapp .help-items .item a:hover {
               color: #FFB800; }
             body header .full_nav-bar .nav-bar .help-wrapp .help-items .item a:hover > .drop-arrow {
@@ -7347,7 +7348,6 @@ body {
             font-style: normal;
             font-weight: bold;
             font-size: 25px;
-            line-height: 34px;
             /* identical to box height */
             letter-spacing: 0.03em;
             text-transform: uppercase;
@@ -7374,6 +7374,130 @@ body {
                 color: #DC4040; }
             body header .full_nav-bar .nav-bar .contact-wrapp .phone-wrapp .drop-menu li:last-child {
               margin-bottom: 0; }
+        body header .full_nav-bar .nav-bar .btn-sidebar {
+          display: none; }
+        body header .full_nav-bar .nav-bar .btn-sidebar-close {
+          display: none; }
+    body header .mobile_nav-bar {
+      display: none;
+      background: #6D7F88;
+      width: 100%;
+      height: auto;
+      padding: 20px; }
+      body header .mobile_nav-bar .help-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none; }
+        body header .mobile_nav-bar .help-items .item {
+          margin: 0 30px;
+          display: flex;
+          align-items: center; }
+          body header .mobile_nav-bar .help-items .item a {
+            text-decoration: none;
+            color: #ffffff;
+            font-family: "Roboto", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            position: relative; }
+            body header .mobile_nav-bar .help-items .item a .drop-arrow {
+              margin-left: 10px;
+              width: 10px;
+              height: 10px;
+              fill: #ffffff; }
+          body header .mobile_nav-bar .help-items .item a:hover {
+            color: #FFB800; }
+          body header .mobile_nav-bar .help-items .item a:hover > .drop-arrow {
+            fill: #FFB800; }
+          body header .mobile_nav-bar .help-items .item .drop-menu {
+            display: none;
+            list-style: none;
+            position: absolute;
+            top: 100px;
+            background: #FFB800;
+            padding: 20px 30px; }
+            body header .mobile_nav-bar .help-items .item .drop-menu li {
+              margin-bottom: 10px; }
+              body header .mobile_nav-bar .help-items .item .drop-menu li a {
+                text-decoration: none;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 20px;
+                letter-spacing: 0.03em;
+                color: #FFFFFF; }
+              body header .mobile_nav-bar .help-items .item .drop-menu li a:hover {
+                color: #DC4040; }
+            body header .mobile_nav-bar .help-items .item .drop-menu li:last-child {
+              margin-bottom: 0; }
+        body header .mobile_nav-bar .help-items .item:last-child {
+          margin-right: 0px; }
+    body header .mask {
+      width: 100%;
+      height: 100vh;
+      background: rgba(69, 90, 100, 0.75);
+      display: none; }
+      body header .mask .sidebar {
+        width: 100%;
+        height: auto;
+        display: flex;
+        background: #DC4040; }
+        body header .mask .sidebar .column {
+          height: 100%;
+          width: 100%;
+          background: #F4F4F4; }
+          body header .mask .sidebar .column ul {
+            list-style: none;
+            margin: 20px 20px 30px 20px; }
+            body header .mask .sidebar .column ul li {
+              display: flex;
+              align-items: center;
+              justify-content: start;
+              margin-bottom: 15px; }
+              body header .mask .sidebar .column ul li a {
+                text-decoration: none;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                text-transform: capitalize;
+                color: #455A64; }
+                body header .mask .sidebar .column ul li a .icon {
+                  width: 30px;
+                  height: 30px;
+                  margin-right: 15px; }
+            body header .mask .sidebar .column ul li:last-child {
+              margin-bottom: 0; }
+        body header .mask .sidebar .red {
+          width: 25%; }
+    body header .active {
+      display: block; }
+    body header .noActive {
+      display: none; }
+  body main {
+    margin-top: 30px;
+    padding: 0 30px; }
+    body main .news-slider-wrapp .slider {
+      width: 100%;
+      background-color: blueviolet;
+      height: 100%; }
+    body main .popular-product {
+      margin-top: 30px;
+      padding: 0; }
+      body main .popular-product .title-block {
+        width: 100%;
+        height: auto;
+        background: #DC4040; }
+        body main .popular-product .title-block .title {
+          margin: 5px 10px; }
+          body main .popular-product .title-block .title h2 {
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #FFFFFF; }
 
 @media only screen and (max-width: 1600px) {
   body header .full_nav-bar .nav-bar .logo-wrapp {
@@ -7391,5 +7515,36 @@ body {
       font-size: 14px; } }
 
 @media only screen and (max-width: 1366px) {
+  body header .full_nav-bar .nav-bar .logo-wrapp {
+    width: 450px; }
   body header .full_nav-bar .nav-bar .help-wrapp {
+    display: none; }
+  body header .mobile_nav-bar {
+    display: block; } }
+
+@media only screen and (max-width: 768px) {
+  body header .full_nav-bar .nav-bar .logo-wrapp {
+    width: 370px; } }
+
+@media only screen and (max-width: 545px) {
+  body header .full_nav-bar .nav-bar .logo-wrapp {
+    width: 270px; }
+  body header .full_nav-bar .nav-bar .contact-wrapp .phone-wrapp .phone-number {
+    font-size: 18px; }
+  body header .mobile_nav-bar .help-items .item a {
+    font-size: 15px; } }
+
+@media only screen and (max-width: 430px) {
+  body header .full_nav-bar {
+    padding: 10px 15px; }
+    body header .full_nav-bar .nav-bar .logo-wrapp {
+      width: 250px; }
+    body header .full_nav-bar .nav-bar .contact-wrapp {
+      display: none; }
+    body header .full_nav-bar .nav-bar .btn-sidebar {
+      display: block; }
+      body header .full_nav-bar .nav-bar .btn-sidebar .icon {
+        width: 30px;
+        height: 30px; }
+  body header .mobile_nav-bar {
     display: none; } }
