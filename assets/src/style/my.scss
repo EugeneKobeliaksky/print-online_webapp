@@ -20,6 +20,7 @@ time, mark, audio, video, h3, span {
    background: transparent;
    text-decoration: none;
    user-select: none;
+   font-family: $main-font;
 }
 
 audio,
@@ -71,7 +72,7 @@ max-width: 1500px;
 
 
 body{
-    width: 100%;
-    height: 100vh;
-    background-color: blue;
+    /* width: 100%;
+    height: 100vh; */
+    @import "header.scss";
 }

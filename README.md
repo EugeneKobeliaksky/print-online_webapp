@@ -5,3 +5,8 @@ Decoding versions:
 - New section
 - New page in section
 - New block on the page
+
+
+Icons template description:
+    1 block / main page:
+    

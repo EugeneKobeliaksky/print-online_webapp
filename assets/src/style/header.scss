@@ -1,0 +1,157 @@
+header{
+    width: 100%;
+    height: auto;
+   .full_nav-bar{
+    padding: 27px 30px;
+    background-color: #455A64;
+    height: auto;
+        .nav-bar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .logo-wrapp{
+                width: 622px;
+                height: 46px;
+                a{
+                    .icon{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            .help-wrapp{
+                .help-items{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    list-style: none;
+                    .item{
+                        margin-right: 40px;
+                        display: flex;
+                        align-items: center;
+                        a{
+                            text-decoration: none;
+                            color: #ffffff;
+                            font-family: $main-font;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 18px;
+                            line-height: 25px;
+                            position: relative;
+                            .drop-arrow{
+                                margin-left: 10px;
+                                width: 10px;
+                                height: 10px;
+                            }
+                        }
+                        a:hover{
+                            color: #FFB800;
+                        }
+                        a:hover > .drop-arrow{
+                            fill: #FFB800;
+                        }
+                        .drop-menu{
+                            display: none;
+                            list-style: none;
+                            position: absolute;
+                            top: 100px;
+                            background: #FFB800;
+                            padding: 20px 30px;
+                            li{
+                                margin-bottom: 10px;
+                                a{
+                                    text-decoration: none;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 15px;
+                                    line-height: 20px;
+                                    letter-spacing: 0.03em;
+
+                                    color: #FFFFFF;
+                                }
+                                a:hover{
+                                    color: #DC4040;
+                                }
+                            }
+                            li:last-child{
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                    .item:last-child{
+                        margin-right: 0px;
+                    }
+                }
+            }
+            .contact-wrapp{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .social-icon-wrapp{
+                    margin-right: 70px;
+                    a{
+                        margin-right: 50px;
+                        .icon{
+                            width: 30px;
+                            height: 30px;
+                            fill: #ffffff;
+                        }
+                        .icon:hover{
+                            fill: #FFB800;
+                        }
+                    }
+                    a:last-child{
+                        margin-right: 0;
+                    }
+                }
+                .phone-wrapp{
+                    .phone-number{
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 25px;
+                        line-height: 34px;
+                        /* identical to box height */
+
+                        letter-spacing: 0.03em;
+                        text-transform: uppercase;
+
+                        color: #FFFFFF;
+                    }
+
+                    .drop-menu{
+                        display: none;
+                        list-style: none;
+                        position: absolute;
+                        top: 100px;
+                        background: #FFB800;
+                        padding: 20px 30px;
+                        li{
+                            margin-bottom: 10px;
+                            a{
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 16px;
+                                line-height: 34px;
+                                /* identical to box height */
+
+                                letter-spacing: 0.03em;
+                                text-transform: uppercase;
+
+                                color: #FFFFFF;
+                            }
+                            a:hover{
+                                color: #DC4040;
+                            }
+                        }
+                        li:last-child{
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+   .mobile_nav-bar{
+
+   }
+}
